@@ -1,0 +1,37 @@
+```{r}
+source("../01 Data/Idf.R", echo = TRUE)
+```
+
+```{r}
+source("../01 Data/Cdf.R", echo = TRUE)
+```
+
+```{r}
+source("../01 Data/Odf.R", echo = TRUE)
+```
+
+```{r}
+source("../01 Data/Ddf.R", echo = TRUE)
+```
+
+```{r}
+source("../02 Visualizations/Customers_Visualization.R", echo = TRUE)
+```
+
+```{r}
+source("../02 Visualizations/Items_Visualization.R", echo = TRUE)
+```
+
+```{r}
+source("../02 Visualizations/Orders_Visualization.R", echo = TRUE)
+```
+
+```{r}
+source("../02 Visualizations/Order_Details_Visualization.R", echo = TRUE)
+```
+
+```{r}
+source("../02 Visualizations/Overview.R", echo = TRUE)
+```
+
+
