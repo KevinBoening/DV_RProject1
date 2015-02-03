@@ -1,9 +1,9 @@
 ```{r}
-source("../01 Data/Idf.R", echo = TRUE)
+source("../01 Data/Cdf.R", echo = TRUE)
 ```
 
 ```{r}
-source("../01 Data/Cdf.R", echo = TRUE)
+source("../01 Data/Idf.R", echo = TRUE)
 ```
 
 ```{r}
