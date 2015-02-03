@@ -332,9 +332,10 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <pre><code>## 
 ## &gt; library(&quot;RCurl&quot;)
 ## 
+## &gt; large_df &lt;- data.frame(eval(parse(text = substring(getURL(URLencode(&quot;http://129.152.144.84:5001/rest/native/?query=\&quot;select * from orders o join cus .... [TRUNCATED]</code></pre>
+<pre class="r"><code>source(&quot;../02 Visualizations/Large_df_Visualizations.R&quot;, echo = TRUE)</code></pre>
+<pre><code>## 
 ## &gt; library(&quot;ggplot2&quot;)
-## 
-## &gt; large_df &lt;- data.frame(eval(parse(text = substring(getURL(URLencode(&quot;http://129.152.144.84:5001/rest/native/?query=\&quot;select * from orders o join cus .... [TRUNCATED] 
 ## 
 ## &gt; ggplot(large_df, aes(x = as.Date(ORDER_DATE, &quot;%Y-%m-%d&quot;), 
 ## +     y = as.Date(SHIPPED_DATE, &quot;%Y-%m-%d&quot;))) + geom_point(aes(color = as.factor(UNIT_PRI .... [TRUNCATED]</code></pre>
